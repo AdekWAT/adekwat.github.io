@@ -1,0 +1,403 @@
+/*--------Глобальные настройки--------*/
+body {
+	font-size: 20px;
+	background-image: url(img/back.jpg);
+	background-attachment: fixed;
+	font-family: 'Roboto Slab', serif;
+}
+main {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+header {
+	background-color: rgba(255, 235, 205, 0.7);
+	border-radius: 15px 15px 0 0;
+	height: 100px;
+}
+footer {
+	background-color: #696969;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0 0 15px 15px;
+}
+footer i {
+	color: white;
+	margin-left: 5px;
+}
+a {
+	text-decoration: none;
+}
+/*--------Меню--------*/
+.header {
+	display: inline-flex;
+	flex-direction: row;
+}
+#current {
+	color: #c32328;
+}
+.menu {
+	padding-top: 20px;
+	padding-bottom: 3px;
+}
+.menu a {
+	margin: 3px;
+	color: black;
+}
+.menu li {
+	display: inline;
+	font-size: 25px;
+	margin-right: 10px;
+}
+.logo {
+	left: 1500px;
+	top: 20px;
+	position: absolute;
+	width: 80px;
+	height: 79px;
+}
+.h {
+	position: absolute;
+	left: 1120px;
+	top: 7px;
+}
+/*--------Список товаров--------*/
+.goods-out::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.goods-out {
+	margin-bottom: 20px;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.goods {
+	text-align: center;
+    vertical-align: middle;
+    height: 350px;
+    width: 25%;
+    float: left;
+}
+.goods #img {
+	max-height: 70%;
+	max-width: 70%;
+	transition: 1s;
+}
+.goods #img:hover {
+	transform: scale(1.2);
+}
+.goods p {
+	margin-top: 10px;
+	color: red;
+	font-size: 22px;
+}
+/*--------Главный блок--------*/
+.content {
+	background-color: rgba(255, 255, 224, 0.7);
+	margin-left: 250px;
+	margin-right: 250px;
+	border-radius: 15px;
+	border: 1px groove black;
+	width: 1400px;
+	height: auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/*--------2.html--------*/
+.div2 {
+	margin-left: 20px;
+}
+.table {
+	font-size: 25px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.table p {
+	margin: 3px;
+}
+.tel {
+	color: black;
+}
+/*--------Стили для списка товаров--------*/
+.goods-img-hover:hover .goods-hover {
+	-webkit-transform: translateY(-90px);
+	transition: all 0.4s ease-in-out;
+	bottom: 0px;
+}
+.goods-img-hover {
+	overflow: hidden;
+	width: 224.875px;
+	height: 224.875px;
+	margin-left: 45px;
+	border-radius: 0 0 15px 15px;
+}
+.goods-img {
+	width: 100%;
+	height: 100%;
+}
+.goods-img img {
+	width: 100%;
+	height: 100%;
+}
+.goods-hover {
+	background: rgba(0, 0, 0, 0.7);
+	width: 210px;
+	height: 200px;
+	z-index: 999;
+	bottom: -90px;
+	-webkit-transition: all 0.3s ease;
+	padding: 7px;
+	right: 5px;
+}
+.goods-hover p {
+	font-size: 14px;
+	color: white;
+	margin: 0 0 10px 0;
+}
+.add-to-cart {
+	font-size: 17px;
+	border-radius: 5px;
+	text-shadow: none;
+	background: none;
+	border: 2px solid #c32328;
+	color: #c32328;
+	text-decoration: none;
+	padding: 5px 11px;
+}
+.name {
+	text-align: left;
+	margin-left: 52px;
+	font-family: 'Roboto Slab', serif;
+}
+.price {
+	text-align: right;
+	float: right;
+	width: 62px;
+	margin: 6px 23px 0 0;
+}
+.weight {
+	float: right;
+	bottom: 10px;
+	right: 58px;
+	position: relative;
+	font-size: 11px;
+}
+/*--------Миникорзина--------*/
+#mini-cart {
+	position: absolute;
+	left: 860px;
+	top: 50px;
+	font-size: 15px;
+	height: 50px;
+	letter-spacing: 1px;
+	text-align: right;
+	vertical-align: middle;
+}
+.cartlogo {
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+}
+/*--------Корзина cart.html--------*/
+#my-cart tr{
+	text-align: center;
+}
+.cart {
+	width: 50%;
+	height: auto;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.maincart {
+	display: flex;
+	flex-direction: row;
+}
+.table-cart {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+.cart-image {
+	margin-top: 30px;
+	margin-bottom: 10px; 
+}
+.goods-name {
+	margin-top: -3px;
+	font-family: 'Roboto Slab', serif;
+}
+/*--------Кнопки--------*/
+.plus {
+	border: none;
+	background: url(img/plus.png) no-repeat;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+.minus {
+	margin-right: 20px;
+	border: none;
+	background: url(img/minus.png) no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.delete {
+	float: right;
+	background: url(img/trashcan.png) 50% 50% no-repeat;
+	background-size: contain;
+	border: none;
+	vertical-align: middle;
+
+}
+/*--------Форма доставки--------*/
+.order {
+	width: 30%;
+	max-height: 730px;
+	height: 550px;
+	border: 1px solid;
+	border-color: rgba(232, 232, 232, 0.7);
+	border-radius: 10px;
+	margin-right: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin-left: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#radio {
+	font-size: 14px;
+	margin-left: 5px;
+	padding-left: 15px;
+}
+#radio label {
+	font-family: 'Roboto Slab', serif;
+}
+/*--------Поля для заполнения--------*/
+.form-control1 {
+	display: inline-block;
+	width: 40%;
+	height: 30px;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-left: 20px;
+}
+.form-control2 {
+	display: inline-block;
+	width: 35%;
+	height: 30px;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+.form-control1 input {
+	padding: 6px 15px;
+	width: 85%;
+	display: block;
+	font-family: 'Roboto Slab', serif;
+}
+.form-control2 input {
+	padding-top: 6px;
+	padding-right: 20px;
+	padding-left: 15px;
+	padding-bottom: 6px;
+	width: 105%;
+	display: block;
+	font-family: 'Roboto Slab', serif;
+}
+.number-cart {
+	padding-left: 20px;
+	padding-top: 15px;
+}
+.number-cart input {
+	width: 360px;
+	height: 30px;
+	padding-left: 15px;
+}
+.mini-header {
+	padding: 10px;
+	text-align: center;
+}
+.comment-cart {
+	padding-left: 20px;
+	padding-top: 15px;
+}
+.comment-cart textarea {
+	width: 360px;
+	height: 80px;
+	padding-left: 15px;
+	font-family: 'Roboto Slab', serif;
+}
+.time-cart {
+	font-size: 13px;
+	padding-left: 15px
+}
+.time-cart div {
+	padding-top: 5px;
+}
+.pay-id-cart {
+	font-size: 13px;
+	padding-left: 15px;
+}
+.pay-id-cart div {
+	padding-top: 5px;
+}
+.submit {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.submit input {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-family: 'Roboto Slab', serif;
+}
+#total {
+	margin-left: 15px;
+}
+#total p {
+	margin-top: 5px;
+	font-size: 19px;
+}
+.delivery-adress p {
+	font-size: 17px;
+	padding-left: 20px;
+}
+#delivery-region {
+	width: 380px;
+	font-size: 15px;
+	height: auto;
+	padding: 7px 10px;
+	margin-left: 20px;
+}
+.street-id {
+	width: 360px;
+	height: 30px;
+	padding-left: 15px;
+	margin-left: 20px;
+}
+.date-id {
+	font-size: 14px;
+	margin-left: 15px;
+}
+.date-id select {
+	margin-left: 40px;
+	padding: 3px 5px;
+}
+.empty {
+	width: 100%;
+	padding: 30px 30px;
+}
+/*---------Карта---------*/
+.minimap {
+	float: right;
+}

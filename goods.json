@@ -1,0 +1,498 @@
+{
+	"1" : {
+		"name" : "Хигами",
+		"cost" : 119,
+		"description" : "Угорь, авокадо, омлет, огурец, сливочный сыр. 4 шт.",
+		"weight" : 160,
+		"image" : "img/hotroll/hot-roll.order1.png",
+		"category" : "hotroll"
+	},
+	"2" : {
+		"name" : "Мусаши",
+		"cost" : 120,
+		"description" : "Сливочный сыр, курица, бекон, перец, салат. 4 шт.",
+		"weight" : 160,
+		"image" : "img/hotroll/hot-roll.order2.png",
+		"category" : "hotroll"
+	},
+	"3" : {
+		"name" : "Огивара",
+		"cost" : 120,
+		"description" : "Сливочный сыр, лосось, огурец, омлет, майонез. 4 шт.",
+		"weight" : 160,
+		"image" : "img/hotroll/hot-roll.order3.png",
+		"category" : "hotroll"
+	},
+	"4" : {
+		"name" : "Сатой",
+		"cost" : 120,
+		"description" : "Креветка, мидии, кальмар, осьминог, огурец, майонез. 4 шт.",
+		"weight" : 160,
+		"image" : "img/hotroll/hot-roll.order4.png",
+		"category" : "hotroll"
+	},
+	"5" : {
+		"name" : "Роллы с лососем",
+		"cost" : 80,
+		"description" : "Роллы с лососем.",
+		"weight" : 110,
+		"image" : "img/smallroll/smallroll1.png",
+		"category" : "smallroll"
+	},
+	"6" : {
+		"name" : "Ролл 'Фудзи'",
+		"cost" : 330,
+		"description" : "Копченым угорь, лосось и сливочный сыр. 6 шт.",
+		"weight" : 220,
+		"image" : "img/bigroll/bigroll1.png",
+		"category" : "bigroll"
+	},
+	"7" : {
+		"name" : "Ролл 'Таро'",
+		"cost" : 260,
+		"description" : "Копченый угорь, сыр филадельфия, украшен икрой мосаго и салатом Хияше. 8 шт.",
+		"weight" : 220,
+		"image" : "img/bigroll/bigroll2.png",
+		"category" : "bigroll"
+	},
+	"8" : {
+		"name" : "Ролл 'Фэше'",
+		"cost" : 240,
+		"description" : "2 в 1 темпура ролл с лососем, коктейльной креветкой, обёрнут рисом и нории. 8 шт.",
+		"weight" : 185,
+		"image" : "img/bigroll/bigroll3.png",
+		"category" : "bigroll"
+	},
+	"9" : {
+		"name" : "Ролл 'Киви Маки'",
+		"cost" : 250,
+		"description" : "Лосось, огурец, сыр Фета, украшен икрой тобико и кунжутом. 8 шт.",
+		"weight" : 210,
+		"image" : "img/bigroll/bigroll4.png",
+		"category" : "bigroll"
+	},
+	"10" : {
+		"name" : "Сет 'Елка'",
+		"cost" : 2400,
+		"description" : "Сет из 11 видов роллов.",
+		"weight" : 2150,
+		"image" : "img/sets/set1.png",
+		"category" : "set"
+	},
+	"11" : {
+		"name" : "Сет 'Сакура'",
+		"cost" : 1850,
+		"description" : "Сет из 9 видов роллов.",
+		"weight" : 1890,
+		"image" : "img/sets/set2.png",
+		"category" : "set"
+	},
+	"12" : {
+		"name" : "Сет 'Подкова'",
+		"cost" : 1500,
+		"description" : "Сет из 6 видов роллов.",
+		"weight" : 1200,
+		"image" : "img/sets/set3.png",
+		"category" : "set"
+	},
+	"13" : {
+		"name" : "Сет 'Орден'",
+		"cost" : 1400,
+		"description" : "Сет из 4 видов роллов.",
+		"weight" : 1000,
+		"image" : "img/sets/set4.png",
+		"category" : "set"
+	},
+	"14" : {
+		"name" : "Горячий Маки",
+		"cost" : 250,
+		"description" : "Хрустящий темпура-ролл с нежным сочетанием копченого угря и тигровой креветки.",
+		"weight" : 195,
+		"image" : "img/bighotroll/bighotroll1.png",
+		"category" : "bighotroll"
+	},
+	"15" : {
+		"name" : "Горячий Банзай",
+		"cost" : 250,
+		"description" : "Ролл с копченым угрем, лососем и сливочным сыром, запанированный в сухарях и обжаренный .",
+		"weight" : 220,
+		"image" : "img/bighotroll/bighotroll2.png",
+		"category" : "bighotroll"
+	},
+	"16" : {
+		"name" : "Горячая Филадельфия",
+		"cost" : 350,
+		"description" : "Ролл Филадельфия обжаренный в кляре темпура.",
+		"weight" : 225,
+		"image" : "img/bighotroll/bighotroll3.png",
+		"category" : "bighotroll"
+	},
+	"17" : {
+		"name" : "Скин Маки Темпура",
+		"cost" : 200,
+		"description" : "Сет из 4 видов роллов.",
+		"weight" : 190,
+		"image" : "img/bighotroll/bighotroll4.png",
+		"category" : "bighotroll"
+	},
+	"18" : {
+		"name" : "С копченной курицей",
+		"cost" : 220,
+		"description" : "Нори, рис, японский майонез, помидор свежий, сыр Гауда, сыр Моцарелла, копченая курица.",
+		"weight" : 370,
+		"image" : "img/sushipizza/sushipizza1.png",
+		"category" : "sushipizza"
+	},
+	"19" : {
+		"name" : "С лососем",
+		"cost" : 240,
+		"description" : "Нори, рис, японский майонез, помидор свежий, сыр Гауда, ыр Моцарелла, лосось.",
+		"weight" : 370,
+		"image" : "img/sushipizza/sushipizza2.png",
+		"category" : "sushipizza"
+	},
+	"20" : {
+		"name" : "С морепродуктами",
+		"cost" : 280,
+		"description" : "Нори, рис, японский майонез, помидор свежий, сыр Гауда, сыр Моцарелла, морепродукты.",
+		"weight" : 370,
+		"image" : "img/sushipizza/sushipizza3.png",
+		"category" : "sushipizza"
+	},
+	"21" : {
+		"name" : "С копченным лососем",
+		"cost" : 200,
+		"description" : "Рис для суши, нори, сыр, лосось, огурец, мидии, спайси соус, соус унаги.",
+		"weight" : 190,
+		"image" : "img/sushipizza/sushipizza4.png",
+		"category" : "sushipizza"
+	},
+	"22" : {
+		"name" : "Лапга 'WOK' с креветками",
+		"cost" : 270,
+		"description" : "Овощной микс, фирменный соус 312, соус от Шефа, соус терияки, креветки.",
+		"weight" : 250,
+		"image" : "img/wok/wok1.png",
+		"category" : "wok"
+	},
+	"23" : {
+		"name" : "Лапша 'WOK с овощами",
+		"cost" : 190,
+		"description" : "Овощной микс, фирменный соус 312, соус от Шефа, соус терияки.",
+		"weight" : 250,
+		"image" : "img/wok/wok2.png",
+		"category" : "wok"
+	},
+	"24" : {
+		"name" : "Лапша 'WOK' с говядиной",
+		"cost" : 250,
+		"description" : "Овощной микс, фирменный соус 312, соус от Шефа, соус терияки, говядина.",
+		"weight" : 250,
+		"image" : "img/wok/wok3.png",
+		"category" : "wok"
+	},
+	"25" : {
+		"name" : "Лапша 'WOK' с курицей",
+		"cost" : 230,
+		"description" : "Овощной микс, фирменный соус 312, соус от Шефа, соус терияки, курица.",
+		"weight" : 250,
+		"image" : "img/wok/wok4.png",
+		"category" : "wok"
+	},
+	"26" : {
+		"name" : "Унаги нигири",
+		"cost" : 75,
+		"description" : "Угорь, рис.",
+		"weight" : 100,
+		"image" : "img/sushi/sushi1.png",
+		"category" : "sushi"
+	},
+	"27" : {
+		"name" : "Лосось Негири",
+		"cost" : 60,
+		"description" : "Рис, лосось.",
+		"weight" : 100,
+		"image" : "img/sushi/sushi2.png",
+		"category" : "sushi"
+	},
+	"28" : {
+		"name" : "Нигири с гребешком",
+		"cost" : 89,
+		"description" : "Рис, нори, гребешок.",
+		"weight" : 110,
+		"image" : "img/sushi/sushi3.png",
+		"category" : "sushi"
+	},
+	"29" : {
+		"name" : "Эби нигири",
+		"cost" : 70,
+		"description" : "Рис, креветка.",
+		"weight" : 90,
+		"image" : "img/sushi/sushi4.png",
+		"category" : "sushi"
+	},
+	"30" : {
+		"name" : "Острые суши с угрём",
+		"cost" : 69,
+		"description" : "Угорь, рис, нори, спайси соус.",
+		"weight" : 90,
+		"image" : "img/gunkany/gunkany1.png",
+		"category" : "gunkany"
+	},
+	"31" : {
+		"name" : "Нигири Чука",
+		"cost" : 65,
+		"description" : "Рис, нори, чукка.",
+		"weight" : 90,
+		"image" : "img/gunkany/gunkany2.png",
+		"category" : "gunkany"
+	},
+	"32" : {
+		"name" : "Нигири с икрой",
+		"cost" : 80,
+		"description" : "Рис, нори, икра масаго.",
+		"weight" : 90,
+		"image" : "img/gunkany/gunkany3.png",
+		"category" : "gunkany"
+	},
+	"33" : {
+		"name" : "Острые суши с крабом",
+		"cost" : 69,
+		"description" : "Краб, рис, нори, спайси соус.",
+		"weight" : 90,
+		"image" : "img/gunkany/gunkany4.png",
+		"category" : "gunkany"
+	},
+	"34" : {
+		"name" : "Ветчина-сыр",
+		"cost" : 130,
+		"description" : "Ветчина, соус, ыр моцарелла, сыр гауда.",
+		"weight" : 210,
+		"image" : "img/kono/kono1.png",
+		"category" : "kono"
+	},
+	"35" : {
+		"name" : "Мясная",
+		"cost" : 150,
+		"description" : "Бекон, ветчина, колбаски охотничьи, курица, томаты, лук, соус, сыр моцарелла, сыр гауда.",
+		"weight" : 210,
+		"image" : "img/kono/kono2.png",
+		"category" : "kono"
+	},
+	"36" : {
+		"name" : "Гавайская",
+		"cost" : 130,
+		"description" : "Соус, курица, ветчина, ананасы, кукуруза, сыр мацарелла, сыр гауда.",
+		"weight" : 210,
+		"image" : "img/kono/kono3.png",
+		"category" : "kono"
+	},
+	"37" : {
+		"name" : "Вегетарианская",
+		"cost" : 110,
+		"description" : "Перец болгарский, огурец, грибы, лук, томаты, маслины, сыр мацарелла, сыр гауда.",
+		"weight" : 210,
+		"image" : "img/kono/kono4.png",
+		"category" : "kono"
+	},
+	"38" : {
+		"name" : "Сашими с лососем",
+		"cost" : 200,
+		"description" : "Сашими с лососем.",
+		"weight" : 140,
+		"image" : "img/sashimi/sashimi1.png",
+		"category" : "sashimi"
+	},
+	"39" : {
+		"name" : "Сашими с угрем",
+		"cost" : 200,
+		"description" : "Сашими с угрем.",
+		"weight" : 145,
+		"image" : "img/sashimi/sashimi2.png",
+		"category" : "sashimi"
+	},
+	"40" : {
+		"name" : "Сашими с тунцом",
+		"cost" : 200,
+		"description" : "Сашими с тунцом.",
+		"weight" : 140,
+		"image" : "img/sashimi/sashimi3.png",
+		"category" : "sashimi"
+	},
+	"41" : {
+		"name" : "Сашими с креветкой",
+		"cost" : 200,
+		"description" : "Сашими с креветкой.",
+		"weight" : 140,
+		"image" : "img/sashimi/sashimi1.png",
+		"category" : "sashimi"
+	},
+	"42" : {
+		"name" : "Роллы с угрем",
+		"cost" : 80,
+		"description" : "Роллы с угрем.",
+		"weight" : 110,
+		"image" : "img/smallroll/smallroll2.png",
+		"category" : "smallroll"
+	},
+	"43" : {
+		"name" : "Роллы с тунцом",
+		"cost" : 100,
+		"description" : "Роллы с тунцом.",
+		"weight" : 110,
+		"image" : "img/smallroll/smallroll3.png",
+		"category" : "smallroll"
+	},
+	"44" : {
+		"name" : "Роллы с креветками",
+		"cost" : 120,
+		"description" : "Роллы с креветками.",
+		"weight" : 110,
+		"image" : "img/smallroll/smallroll4.png",
+		"category" : "smallroll"
+	},
+	"45" : {
+		"name" : "Рис с овощами",
+		"cost" : 100,
+		"description" : "Рис, перец болгарский, цукини, морковь, кунжут.",
+		"weight" : 200,
+		"image" : "img/hot/hot1.png",
+		"category" : "hot"
+	},
+	"46" : {
+		"name" : "Рис с овощами и курицей",
+		"cost" : 160,
+		"description" : "Рис, перец болгарский, цукини, морковь, курица, кунжут",
+		"weight" : 280,
+		"image" : "img/hot/hot2.png",
+		"category" : "hot"
+	},
+	"47" : {
+		"name" : "Удон с овощами",
+		"cost" : 100,
+		"description" : "Удон, перец болгарский, цукини, морковь, кунжут.",
+		"weight" : 220,
+		"image" : "img/hot/hot3.png",
+		"category" : "hot"
+	},
+	"48" : {
+		"name" : "Удон с овощами и курицей",
+		"cost" : 160,
+		"description" : "Удон, перец болгарский, цукини, морковь, курица, кунжут.",
+		"weight" : 280,
+		"image" : "img/hot/hot4.png",
+		"category" : "hot"
+	},
+	"49" : {
+		"name" : "Соба с овощами",
+		"cost" : 120,
+		"description" : "Лапша гречневая, соба, перец болгарский, цукини, морковь, кунжут.",
+		"weight" : 220,
+		"image" : "img/hot/hot5.png",
+		"category" : "hot"
+	},
+	"50" : {
+		"name" : "Соба с овощами и курицей",
+		"cost" : 175,
+		"description" : "Лапша гречневая, соба, перец болгарский, цукини, морковь, курица, кунжут.",
+		"weight" : 280,
+		"image" : "img/hot/hot6.png",
+		"category" : "hot"
+	},
+	"51" : {
+		"name" : "Пицца Ассорти",
+		"cost" : 500,
+		"description" : "Моцарелла, фирменный соус, курица, томат, шампиньоны, корнишоны.",
+		"weight" : 600,
+		"image" : "img/bigpizza/bigpizza1.png",
+		"category" : "bigpizza"
+	},
+	"52" : {
+		"name" : "Пицца Мясная",
+		"cost" : 600,
+		"description" : "Моцарелла, фирменный соус, ветчина, курица, бекон, чоризо.",
+		"weight" : 600,
+		"image" : "img/bigpizza/bigpizza2.png",
+		"category" : "bigpizza"
+	},
+	"53" : {
+		"name" : "Пицца Пепперони",
+		"cost" : 600,
+		"description" : "Моцарелла, фирменный соус, пепперони.",
+		"weight" : 600,
+		"image" : "img/bigpizza/bigpizza3.png",
+		"category" : "bigpizza"
+	},
+	"54" : {
+		"name" : "Пицца Домашняя",
+		"cost" : 650,
+		"description" : "Моцарелла, фирменный соус, ветчина, бекон, томат, корнишоны, опята.",
+		"weight" : 600,
+		"image" : "img/bigpizza/bigpizza4.png",
+		"category" : "bigpizza"
+	},
+	"55" : {
+		"name" : "Пицца Ассорти мал.",
+		"cost" : 300,
+		"description" : "Моцарелла, фирменный соус, курица, томат, шампиньоны, корнишоны.",
+		"weight" : 450,
+		"image" : "img/smallpizza/smallpizza1.png",
+		"category" : "smallpizza"
+	},
+	"56" : {
+		"name" : "Пицца Мясная мал.",
+		"cost" : 250,
+		"description" : "Моцарелла, фирменный соус, ветчина, курица, бекон, чоризо.",
+		"weight" : 450,
+		"image" : "img/smallpizza/smallpizza2.png",
+		"category" : "smallpizza"
+	},
+	"57" : {
+		"name" : "Пицца Пепперони мал.",
+		"cost" : 250,
+		"description" : "Моцарелла, фирменный соус, пепперони.",
+		"weight" : 450,
+		"image" : "img/smallpizza/smallpizza3.png",
+		"category" : "smallpizza"
+	},
+	"58" : {
+		"name" : "Пицца Домашняя мал.",
+		"cost" : 350,
+		"description" : "Моцарелла, фирменный соус, ветчина, бекон, томат, корнишоны, опята.",
+		"weight" : 450,
+		"image" : "img/smallpizza/smallpizza4.png",
+		"category" : "smallpizza"
+	},
+	"59" : {
+		"name" : "Чизбургер",
+		"cost" : 160,
+		"description" : "Рубленый бифштекс из говядины, булочка с кунжутом, ломтик сыра, колечки лука.",
+		"weight" : 210,
+		"image" : "img/burger/burger1.png",
+		"category" : "burger"
+	},
+	"60" : {
+		"name" : "Двойной чизбургер",
+		"cost" : 210,
+		"description" : "Два рубленных бифштекса из говядины, булочка с кунжутом, огурчик маринованный, ломтик сыра, колечки лука.",
+		"weight" : 350,
+		"image" : "img/burger/burger2.png",
+		"category" : "burger"
+	},
+	"61" : {
+		"name" : "Чикенбургер",
+		"cost" : 160,
+		"description" : "Куриное филе в панировке, булочка с кунжутом, огурец свежий, колечки лука, помидор свежий.",
+		"weight" : 190,
+		"image" : "img/burger/burger3.png",
+		"category" : "burger"
+	},
+	"62" : {
+		"name" : "Гамбургер",
+		"cost" : 130,
+		"description" : "Рубленый бифштекс из говядины, булочка с кунжутом, огурчик маринованный, колечки лука.",
+		"weight" : 180,
+		"image" : "img/burger/burger4.png",
+		"category" : "burger"
+	}
+}

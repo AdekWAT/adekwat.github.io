@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Корзина</title>
+</head>
+<body>
+	<div class="content">
+	<header>
+		<a href="index.html">
+			<img class="logo" alt="Доставка" src="img/logo.png">
+		</a>
+		<h1 class="h">ДОСТАВКА ЕДЫ</h1>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">МЕНЮ</a></li>
+				<li><a href="2.html">ДОСТАВКА</a></li>
+				<li><a href="3.html">ОПЛАТА</a></li>
+				<li><a href="4.html">КОНТАКТЫ</a></li>
+			</ul>  
+		</div>
+	</header>
+	<main>
+		<div class="maincart">
+			<div class="cart" >
+			<b>
+				<table id="my-cart" class="table-cart">
+
+				</table>
+			</b>
+			</div>	
+			<div class="order">
+			<form  onsubmit="orderSubmit()" action="send.php" method="post">
+				<textarea name="name" hidden class="name-id"></textarea>
+				<div class="mini-header">
+				<center>Доставка</center>
+				</div>
+				<div id="radio">
+					<label>
+						<input required="" value="Самовывоз" type="radio" name="delivery-id" onclick="hideStreetID()">
+						Самовывоз
+					</label>
+					<label>
+						<input required="" value="Доставка до дома" type="radio" name="delivery-id" onclick="showStreetID()">
+						Доставка до дома
+					</label>
+				</div>
+				<div class="delivery-adress">
+
+				</div>
+				<div class="mini-header">
+					Информация о заказе
+				</div>
+				<div>
+					<div class="form-control1">
+					<input pattern="^[А-Яа-яЁё\s]+$" name="fio" required="" type="text" placeholder="Имя и фамилия">
+					</div>
+					<div class="form-control2">
+					<input name="kolvo" required="" type="number" min="1" max="10" placeholder="Кол-во персон">
+					</div>
+				</div>
+				<div class="number-cart">
+					<input name="tel" required="" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" maxlength="12" type="tel" placeholder="Ваш телефон ">
+				</div>
+				<div class="comment-cart">
+					<textarea name="comment" cols="74" wrap="soft" placeholder="Комментарий к заказу"></textarea>
+				</div>
+				<div class="time-cart">
+					<label>
+						<input value="Начать готовить сразу" required="" type="radio" name="delivery-time" onclick="hideDateID()">
+						Начать готовить сразу
+					</label>
+					<br>
+					<label>
+						<input value="Начать готовить в указанное время" required="" type="radio" name="delivery-time" onclick="showDateID()">
+						Начать готовить в указанное время
+					</label>
+				</div>
+				<div class="date-id">
+					
+				</div>
+				<div class="mini-header">
+					Оплата
+				</div>
+				<div class="pay-id-cart">
+					<label>
+						<input value="Наличными при получении" required="" type="radio" name="pay-method">
+						Наличными при получении
+					</label>
+					<br>
+					<label>
+						<input value="Картой онлайн" required="" type="radio" name="pay-method">
+						Картой онлайн
+					</label>
+					<br>
+					<label>
+						<input value="Картой при получении" required="" type="radio" name="pay-method">
+						Картой при получении
+					</label>
+				</div>
+				<div id="total">
+					<div>
+						<p>- Итого: <span class="total"></span> руб.</p>
+						<textarea hidden="" name="total" type="text" class="total"></textarea>
+					</div>	
+				</div>
+				<div class="submit">
+					<center>
+						<input type="submit" name="Оформить заказ">
+					</center>
+				</div>
+			</form>	
+			</div>
+		</div>
+	</main>
+	<footer>
+		<i>&copy; 2020 <<БЮ>></i>
+	</footer>
+	</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
